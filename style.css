@@ -44,6 +44,11 @@ a {
     display: none;
 }
 
+
+/* =========================
+   Main Buttons
+   ========================= */
+
 .btn {
     background-color: #003263;
     color: white;
@@ -66,6 +71,11 @@ a {
     background-color: #0069d9;
 }
 
+
+/* =========================
+   Online Button
+   ========================= */
+
 .btn-onln {
     background-color: #076300;
 }
@@ -73,6 +83,11 @@ a {
 .btn-onln:hover {
     background-color: #18891b;
 }
+
+
+/* =========================
+   Toolbox Button
+   ========================= */
 
 .btn-toolbox {
     background-color: #ae2301;
@@ -82,10 +97,20 @@ a {
     background-color: #d42a01;
 }
 
+
+/* =========================
+   GoldHEN Multi FW Button
+   ========================= */
+
 .btn-multi {
-    background-color: #b8860b;
+    background: linear-gradient(135deg, #003b73, #0066cc);
+    color: white;
+    border: 1px solid #168cff;
+    box-shadow: 0 0 10px rgba(0, 102, 204, 0.7);
 }
 
 .btn-multi:hover {
-    background-color: #daa520;
+    background: linear-gradient(135deg, #0059a8, #ff4b00);
+    border-color: #ff5a00;
+    box-shadow: 0 0 15px rgba(255, 75, 0, 0.8);
 }
